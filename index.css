@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: 'timerfont';
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+.main {
+    position: relative;
+    height: 100vh;
+}
+.main .pic {
+    position: absolute;
+}
+.main .pic img {
+    background-size: cover ;
+    width: 100%;
+    height: 100vh;
+    z-index: -4;
+}
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background-color: #4d3519a1;
+    height: 350px;
+    width: 500px;
+    left: calc(50% - 250px);
+    top: calc(50% - 175px);
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px 6px #4d3919b3;
+}
+.container div {
+    text-align: center;
+}
+.container div h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container .score {
+    background-color: black;
+    color: white;
+    width: 155px;
+    height: 120px;
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+    left: calc(50% - 77.5px);
+    text-align: center;
+    border-radius: 10px;
+}
+.container .score #homescore ,
+.container .score #guestscore
+{
+    position: relative;
+    top: calc(50% - 35px);
+    font-family: timerfont;
+    font-size: 70px;
+    margin: 0;
+    color: #f94f6d ;
+}
+.container div ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.container div ul li {
+    margin: auto;
+}
+.container div ul li button{
+    background-color: #18244c00;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    border: 2px solid #c29644 ;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
+.container .newgame {
+    position: absolute;
+    top: 280px;
+}
+.container .newgame button{
+    color: #ffffff;
+    background-color: #18244c00;
+    border: 2px solid #c29644;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
