@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: 'timerfont';
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #19244D;
+    height: 100vh ; 
+}
+.container div {
+    text-align: center;
+}
+.container div h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container .score {
+    background-color: black;
+    color: white;
+    width: 155px;
+    height: 120px;
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+    left: calc(50% - 77.5px);
+    text-align: center;
+}
+.container .score #homescore ,
+.container .score #guestscore
+ {
+    position: relative;
+    top: calc(50% - 35px);
+    font-family: timerfont;
+    font-size: 70px;
+    margin: 0;
+    color: #f94f6d ;
+}
+.container div ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.container div ul li {
+    margin: auto;
+}
+.container div ul li button{
+    background-color: #18244C;
+    color: #637291;
+    text-align: center;
+    outline: none;
+    border: 2px solid #637291 ;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
+.container .newgame {
+    position: absolute;
+    top: 280px;
+}
+.container .newgame button{
+    color: #637291;
+    background-color: #18244C;
+    border: 2px solid #637291;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
