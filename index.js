@@ -52,11 +52,11 @@ let guestEl = document.getElementById("guest")
 
 function winner() {
     if(counthome > countguest) {
-        homeEl.innerText="Winner"
-        guestEl.innerText="Loser"
+        homeEl.innerText="Winning"
+        guestEl.innerText="Losing"
     } else if (countguest > counthome) {
-        guestEl.innerText="Winner"
-        homeEl.innerText="Loser"
+        guestEl.innerText="Winning"
+        homeEl.innerText="Losing"
     } else if (countguest === counthome && countguest !== 0 && counthome !== 0) {
         homeEl.innerText="Draw"
         guestEl.innerText="Draw"

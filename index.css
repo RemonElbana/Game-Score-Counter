@@ -23,7 +23,7 @@ body {
     top: calc(50% - 175px);
     z-index: 1;
     border-radius: 15px;
-    box-shadow: 0px 0px 3px 6px #4d3919d5;
+    box-shadow: 0px 0px 3px 6px #4d3919d7;
 }
 .container div {
     text-align: center;
@@ -85,4 +85,11 @@ body {
     border: 2px solid #c29644;
     padding: 7px 5px;
     border-radius: 5px;
+}
+@media (max-width:500px) {
+    .container {
+        position:static;
+        width: 100%;
+        border-radius: 0px;
+        }
 }
