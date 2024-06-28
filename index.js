@@ -43,8 +43,10 @@ function add3pointguest() {
 function reset() {
     guestscoreEl.innerText = 0
     homescoreEl.innerText = 0
+    countguest = 0
+    counthome = 0
     winner()
-    resetName()
+    resetNames()
 }
 
 let homeEl = document.getElementById("home")
@@ -63,7 +65,7 @@ function winner() {
     }
 }
 
-function resetName() {
+function resetNames() {
         homeEl.innerText="Home"
         guestEl.innerText="Guest"
 }
