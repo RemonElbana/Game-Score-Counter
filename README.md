@@ -1,1 +1,1 @@
-https://codexxx0.github.io/Game-Score-Counter/
+https://RemonElbana.github.io/Game-Score-Counter/
